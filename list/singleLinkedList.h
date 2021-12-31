@@ -17,7 +17,7 @@
 typedef struct LNode
 {
     int data;
-    LNode *next;
+    struct LNode *next;
 }LNode;
 
 class singleLinkedList{
